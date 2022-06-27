@@ -1,0 +1,28 @@
+Good day guys! Attaching a link to a reference presentation for this topic - https://docs.google.com/presentation/d/0B2gYagumEY14Tm9HX2Z3dmZnNDQ/edit?resourcekey=0-CC6HFHpsbMoVe8_m2qWrNA#slide=id.p1   
+
+And here are the activities you need to answer. Submit a .js file containing separate functions for each problem and solution and an HTML where your changes and appended elements and content will be displayed. 
+
+1. Underline all the words of a text using jQuery.
+2. Scroll to the top of the page with jQuery.
+3. Disable right click menu in html page using jQuery.
+4. Set background-image using jQuery CSS property. 
+5. Count child elements using jQuery.
+6. Finds all elements that are checked or selected.
+7. Find all the text nodes inside a paragraph and wrap them with an italic tag.
+8. Get the background color of a clicked division.
+9. Click a word in the paragraph and highlight it.
+10. Double click to toggle background color of a paragraph.
+11. Append a <p> element with a text message when an <input> field is changed.
+12. Display the tag's name on click.
+13. Count the number of milliseconds between the two click events on a paragraph.
+14. Test if an input has focus. Add a red border on the focused input element.
+15. Display the window height and width while (or after) it is resized.
+16. Using jQuery insert a DOM element after all paragraphs.
+17. Click a header to add another header.
+18. Create a button that adds an input element with a class of 'dynamicinput' and grab the value of that input element every time its input value changes.
+19. Use jQuery to dynamically add rows to an existing table. Added rows should have a border of color red.
+20. Create a form and every time a form submits, grab the values and add '-inator' to each value. E.g. form contains the values {name: 'Ean', favoriteDrink: 'tea'} turns into {name: 'Eaninator', favoriteDrink: 'teainator'}.
+
+
+Questions, clarifications, and concerns will be addressed via our communication media. Good luck!
+
