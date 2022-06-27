@@ -1,11 +1,11 @@
 $(document).ready(() => {
   //number 1
   $('#underlineButton').click(() => {
-    $('#number1').addClass('underline');
+    $('#number1').css('text-decoration', ' underline');
   });
 
   $('#resetButton').click(() => {
-    $('#number1').removeClass('underline');
+    $('#number1').css('text-decoration', ' none');
   });
 
   //number 2
@@ -122,5 +122,35 @@ $(document).ready(() => {
   //number17
   $('body').delegate('h1.number17', 'click', function () {
     $(this).after('<h1>Another Header!</h1>');
+  });
+
+  //number 18
+  $('#number18').click(() => {
+    $('<input type="text">').appendTo('.div18');
+    $(':input').addClass('dynamicInput');
+    $('#number18').fadeOut('slow');
+
+    $('.dynamicInput').keyup(() => {
+      let xLength = $('.dynamicInput').length - 1;
+      let mirror = $('.dynamicInput')[xLength].value;
+      $('.mirrorText').text(mirror);
+    });
+  });
+
+  //number 19
+  $('.btn19').click(() => {
+    $('<tr> <th>##</th> <td> </td> <td> </td> </tr>').appendTo($('tbody'));
+    $('tr:last').addClass('border border-3 border-danger ');
+  });
+
+  //nunmber 20
+  $('.btn20').click(() => {
+    let nameVal = $('#name20').length - 1;
+    let name20 = $('#name20')[nameVal].value;
+    $('#nameSpan').text(name20 + 'inator');
+
+    let drinkVal = $('#drink20').length - 1;
+    let drink20 = $('#drink20')[drinkVal].value;
+    $('#drinkSpan').text(`${drink20}inator`);
   });
 });
